@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+background-color:#e27dbb;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;/*esto es para el color de letra*/
+text-align: center;
+
+        }
+.perfil{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600;
+    background-color: #39a2f8;
+    padding: 20px;
+    box-shadow: 0 0 10px #996bac;
+
+
+}   
+.foto-perfil{
+    width: 250px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+} 
+
+    </style>
+    <div class="perfil">
+        <img src="niños.jpg" alt="hola"class="foto-perfil">
+        <h1 id="catalogo">varios tipos</h1>
+       
+        <li id="bebes">bebes</li>
+        <li id="niñas">niñas</li>
+        <li id="niños">niños</li>
+      
+      
+      
+
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                document.getElementById('catalogo').textContent='¡lo mas pedido!';
+                document.getElementById('bebes').textContent='¡desde 0 meses hasta 2 años!mamelucos,vestidos,calcetas,shrots,blusitas c/s dibujado animado'; 
+                document.getElementById('niñas').textContent='¡desde 3 a 13 años!blusitas c/s estampado,shorts,pantolones(mesclilla,mallon,cuero,pijama)calcetas.MAS EDAD EN SECCION *ADOLESCENTES*';
+                document.getElementById('niños').textContent='desde 3 a 13 años!blusitas c/s estampado,shorts,pantolones(mesclilla,mallon,cuero,pijama)calcetas.MAS EDAD EN SECION DE *ADOLESCENTES*';
+            })
+        </script>
+</body>
+</html>

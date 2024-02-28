@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+background-color:#663838;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;/*esto es para el color de letra*/
+text-align: center;
+
+        }
+.perfil{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600;
+    background-color: #5365c9;
+    padding: 20px;
+    box-shadow: 0 0 10px #f1ecf3;
+
+
+}   
+.foto-perfil{
+    width: 250px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+} 
+
+    </style>
+    <div class="perfil">
+        <img src="caballero.jpg" alt="hola"class="foto-perfil">
+        <h1 id="catalogo">varios tipos</h1>
+       
+        <li id="casual">casual</li>
+        <li id="rock">rock</li>
+        <li id="vintage">vintage</li>
+      
+      
+      
+
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                document.getElementById('catalogo').textContent='¡lo mas pedido!';
+                document.getElementById('rock').textContent='chamrras de cuero,pantalones de cuero,mesclillas,sudaderas con imagen'; 
+                document.getElementById('casual').textContent='shorts,camisas manga corta y  largs,mezclillas(varios tipos)';
+                document.getElementById('vintage').textContent='camisas para vestir(manga corta y larga)pantalones(mesclilla,cuero y de vestir)';
+            })
+        </script>
+</body>
+</html>
